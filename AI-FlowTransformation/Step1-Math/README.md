@@ -1,8 +1,8 @@
 # 🚀 사칙연산만 알아도 이해하는 딥러닝 수학 & 데이터 기초
 
-이 과정은 수학 공식이나 복잡한 코드 때문에 딥러닝을 포기했던 분들을 위해 만들어졌습니다. **"생활 속 비유 ➔ 눈으로 보는 그래프 ➔ 실제 딥러닝 코드"** 의 흐름을 따라가다 보면, 어느새 딥러닝의 핵심 원리를 완벽하게 이해하게 될 것입니다.
+이 과정은 수학 공식이나 복잡한 코드 때문에 딥러닝을 포기했던 분들을 위해 만들어졌습니다. **"생활 속 비유 ➔ 눈으로 보는 그래프 ➔ 실제 딥러닝 코드"**의 흐름을 따라가다 보면, 어느새 딥러닝의 핵심 원리를 완벽하게 이해하게 될 것입니다.
 
-특히 후반부 학습은 복잡한 수식 증명 대신, **직관적인 그래프와 시각 자료** 를 중심으로 진행되니 사칙연산만 할 줄 안다면 누구나 끝까지 완주할 수 있습니다. 아래 순서대로 차근차근 노트북을 열어보세요!
+특히 후반부 학습은 복잡한 수식 증명 대신, **직관적인 그래프와 시각 자료**를 중심으로 진행되니 사칙연산만 할 줄 안다면 누구나 끝까지 완주할 수 있습니다. 아래 **[Open in Colab]** 버튼을 클릭하여 별도의 설치 없이 브라우저에서 바로 실습을 시작해 보세요!
 
 ---
 
@@ -10,31 +10,37 @@
 
 ### 1단계. 도구 익히기: 데이터 다루기 기초
 딥러닝이 학습할 '재료'인 데이터를 컴퓨터가 어떻게 다루는지 맛보는 단계입니다. 사칙연산 수준의 코드로 시작합니다.
-*   **`basic001_numpy.ipynb`**: 수많은 숫자를 한 번에 계산해 주는 파이썬의 핵심 도구, Numpy와 친해지기
-*   **`basic002_data.ipynb`**: 표 형태의 데이터(Pandas)를 만져보고 딥러닝 프레임워크(TensorFlow)의 맛을 보는 데이터 기초
+*   **`basic001_numpy.ipynb`** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sally03915/2026-AI-Analysis-Lab/blob/main/AI-FlowTransformation/Step1-Math/basic001_numpy.ipynb)
+    *   수많은 숫자를 한 번에 계산해 주는 파이썬의 핵심 도구, Numpy와 친해지기
+*   **`basic002_data.ipynb`** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sally03915/2026-AI-Analysis-Lab/blob/main/AI-FlowTransformation/Step1-Math/basic002_data.ipynb)
+    *   표 형태의 데이터(Pandas)를 만져보고 딥러닝 프레임워크(TensorFlow)의 맛을 보는 데이터 기초
 
 ### 2단계. 수학 버전: 개념과 그래프로 이해하는 미분
 "딥러닝이 스스로 학습한다"는 게 어떤 의미인지, 눈으로 보이는 그래프와 일상 비유로 이해하는 단계입니다.
-*   **`basic003_딥러닝화력조절_미분_경사하강법.ipynb`**: 에어컨 온도를 맞추듯, 오차를 줄여나가는 '화력 조절'의 원리 배우기
-*   **`basic005_미분_접선의기울기.ipynb`**: 그래프 위의 '기울기'가 왜 딥러닝의 조절 장치(핸들)가 되는지 시각적으로 이해하기
+*   **`basic003_딥러닝화력조절_미분_경사하강법.ipynb`** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sally03915/2026-AI-Analysis-Lab/blob/main/AI-FlowTransformation/Step1-Math/basic003_딥러닝화력조절_미분_경사하강법.ipynb)
+    *   에어컨 온도를 맞추듯, 오차를 줄여나가는 '화력 조절'의 원리 배우기
+*   **`basic005_미분_접선의기울기.ipynb`** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sally03915/2026-AI-Analysis-Lab/blob/main/AI-FlowTransformation/Step1-Math/basic005_미분_접선의기울기.ipynb)
+    *   グラフ 위의 '기울기'가 왜 딥러닝의 조절 장치(핸들)가 되는지 시각적으로 이해하기
 
 ### 3단계. 딥러닝 연결: 내 손으로 구현하는 학습 원리
 배운 미분을 코드로 구현해 보고, 딥러닝이 오답 노트를 작성하는 거대한 수학적 흐름을 이해합니다.
-*   **`basic006_미분의_구현.ipynb`**: 아주 작은 변화를 이용해 컴퓨터가 직접 미분을 계산하도록 코드로 구현해 보기
-*   **`basic004_딥러닝의_연쇄_오답노트_작성법.ipynb`**: 딥러닝의 꽃! 복잡한 계산을 한 번에 해결하는 '연쇄 오답노트(역전파)' 원리 맛보기
+*   **`basic006_미분의_구현.ipynb`** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sally03915/2026-AI-Analysis-Lab/blob/main/AI-FlowTransformation/Step1-Math/basic006_미분의_구현.ipynb)
+    *   아주 작은 변화를 이용해 컴퓨터가 직접 미분을 계산하도록 코드로 구현해 보기
+*   **`basic004_딥러닝의_연쇄_오답노트_작성법.ipynb`** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sally03915/2026-AI-Analysis-Lab/blob/main/AI-FlowTransformation/Step1-Math/basic004_딥러닝의_연쇄_오답노트_작성법.ipynb)
+    *   딥러닝의 꽃! 복잡한 계산을 한 번에 해결하는 '연쇄 오답노트(역전파)' 원리 맛보기
 
 ### 4단계. 실전 작동: 눈으로 보고 코드로 짜는 인공지능
 수식은 최소화하고, 풍부한 그래프와 시각적 계산 흐름을 통해 인공지능이 실제로 데이터를 판별하고 학습하는 인프라를 완성합니다.
-*   **`basic007_신경망의_조립_퍼셉트론과_활성화함수.ipynb`**
+*   **`basic007_시그모이드미분.ipynb`** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sally03915/2026-AI-Analysis-Lab/blob/main/AI-FlowTransformation/Step1-Math/basic007_시그모이드미분.ipynb)
     *   *내용:* 뉴런의 신호 전달 과정을 흉내 내고, 확률적 스위치(Sigmoid/ReLU)의 그래프 이해하기
-    *   *배우는 이유:* 인공지능이 "간다/안 간다", "개/고양이" 같은 최종 결정을 내릴 때 쓰는 **'결정 스위치'** 가 어떻게 생겼는지 눈으로 확인하기 위해서입니다.
-*   **`basic008_오답의_무게_Cross_Entropy_손실함수.ipynb`**
+    *   *배우는 이유:* 인공지능이 "간다/안 간다", "개/고양이" 같은 최종 결정을 내릴 때 쓰는 **'결정 스위치'**가 어떻게 생겼는지 눈으로 확인하기 위해서입니다.
+*   **`basic008_CrossEntropy.ipynb`** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sally03915/2026-AI-Analysis-Lab/blob/main/AI-FlowTransformation/Step1-Math/basic008_CrossEntropy.ipynb)
     *   *내용:* 틀릴수록 벌점이 폭발하는 로그 그래프를 통해 모델의 채점 기준(손실함수) 배우기
-    *   *배우는 이유:* 인공지능이 아슬아슬하게 틀렸을 때와 완전히 헛다리를 짚었을 때, **벌금을 다르게 때리는 '인공지능 전용 채점 기준'** 을 이해하기 위해서입니다.
-*   **`basic009_계산_그래프로_보는_역전파와_레이어_구현.ipynb`**
+    *   *배우는 이유:* 인공지능이 아슬아슬하게 틀렸을 때와 완전히 헛다리를 짚었을 때, **벌금을 다르게 때리는 '인공지능 전용 채점 기준'**을 이해하기 위해서입니다.
+*   **`basic009_딥러닝.ipynb`** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sally03915/2026-AI-Analysis-Lab/blob/main/AI-FlowTransformation/Step1-Math/basic009_딥러닝.ipynb)
     *   *내용:* 사과/귤 영수증 계산 그래프 비유로 역전파의 진짜 코드(Affine, Softmax) 시각화하기
     *   *배우는 이유:* 수십 줄짜리 복잡한 수학 공식 대신, 마트 영수증을 계산하듯 **정방향/역방향 화살표 흐름으로 딥러닝의 연산 과정을 시각적으로 쉽게 이해**하기 위해서입니다.
-*   **`basic010_밑바닥부터_조립하는_2층_신경망과_Keras_맛보기.ipynb`**
+*   **`basic010_Backpropagation.ipynb`** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sally03915/2026-AI-Analysis-Lab/blob/main/AI-FlowTransformation/Step1-Math/basic010_Backpropagation.ipynb)
     *   *내용:* 레고 블록처럼 레이어를 조립해 전체 신경망을 완성하고, 고수준 API(Keras)의 편리함 체감하기
     *   *배우는 이유:* 앞에서 배운 퍼셉트론, 손실함수, 영수증 그래프를 레고 블록처럼 조립해 **진짜 인공지능을 완성해 보고**, 이 복잡한 과정을 단 3줄로 줄여주는 최신 도구의 강력함을 체감하기 위해서입니다.
 
@@ -45,8 +51,8 @@
 1.  **순서대로 진행해 주세요**
     *   앞 장에서 배운 도구와 개념이 뒤로 갈수록 자연스럽게 이어집니다. `basic001`부터 순서대로 학습하는 것을 강력히 권장합니다.
 2.  **공식을 외우지 마세요!**
-    *   4단계의 행렬 수식이나 생소한 기호에 겁먹을 필요 없습니다. 수식 대신 함께 첨부된 **'언덕 그래프', '로그 패널티 곡선', '화살표 계산 그래프'** 의 움직임을 눈으로 이해하는 것이 훨씬 중요합니다.
-3.  **코드를 직접 실행해 보세요**
-    *   눈으로만 보는 것보다, Jupyter Notebook의 셀을 하나씩 직접 실행(`Shift + Enter`)하며 결과와 그래프가 어떻게 바뀌는지 확인하면 이해가 훨씬 빨라집니다.
+    *   4단계의 행렬 수식이나 생소한 기호에 겁먹을 필요 없습니다. 수식 대신 함께 첨부된 **'언덕 그래프', '로그 패널티 곡선', '화살표 계산 그래프'**의 움직임을 눈으로 이해하는 것이 훨씬 중요합니다.
+3.  **구글 코랩(Colab) 실행 팁**
+    *   각 파일명 옆의 **[Open in Colab]** 버튼을 누르면 구글 로그인 후 즉시 실행이 가능합니다. 눈으로만 보는 것보다, 셀을 하나씩 직접 실행(`Shift + Enter`)하며 결과와 그래프의 변화를 관찰하면 훨씬 빠르게 이해할 수 있습니다.
 
 > **"수학은 딥러닝을 돕는 거들 뿐입니다. 그래프를 장난감처럼 만지며 즐겁게 따라오세요!"**
