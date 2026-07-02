@@ -20,7 +20,7 @@
 *   **`basic003_딥러닝화력조절_미분_경사하강법.ipynb`** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sally03915/2026-AI-Analysis-Lab/blob/main/AI-FlowTransformation/Step1-Math/basic003_딥러닝화력조절_미분_경사하강법.ipynb)
     *   에어컨 온도를 맞추듯, 오차를 줄여나가는 '화력 조절'의 원리 배우기
 *   **`basic005_미분_접선의기울기.ipynb`** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sally03915/2026-AI-Analysis-Lab/blob/main/AI-FlowTransformation/Step1-Math/basic005_미분_접선의기울기.ipynb)
-    *   グラフ 위의 '기울기'가 왜 딥러닝의 조절 장치(핸들)가 되는지 시각적으로 이해하기
+    *   그래프 위의 '기울기'가 왜 딥러닝의 조절 장치(핸들)가 되는지 시각적으로 이해하기
 
 ### 3단계. 딥러닝 연결: 내 손으로 구현하는 학습 원리
 배운 미분을 코드로 구현해 보고, 딥러닝이 오답 노트를 작성하는 거대한 수학적 흐름을 이해합니다.
